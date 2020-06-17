@@ -1,0 +1,92 @@
+.App {
+  max-width: 460px;
+  margin: 0 auto;
+}
+.App-body input[type='text'] {
+  min-width: 300px;
+  border: 1px solid #dadadb;
+  min-height: 30px;
+  display: inline-block;
+  margin: 0 auto;
+}
+    
+.App-body textarea {
+  min-width: 300px;
+  max-height: 150px;
+  overflow-y: auto;
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+.App-body button{
+  cursor: pointer;
+  padding: 10px 40px;
+  background: lightskyblue;
+  border: 1px solid #dadadb;
+  border-radius: 4px;
+  float: right;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#content >p {
+  margin-bottom: 10px;
+}
+
+#content >p label {
+  width: 150px;
+  display: inline-block;
+  text-align: left;
+}
+
+#content >p lable span{
+  float: right;
+  margin-right: 20px;
+}
+.capture_tip_error{
+  font-size:12px;
+  color: red;
+  display: block;
+  vertical-align: top;
+  visibility: hidden;
+  margin-left: 150px;
+}
+
+p{
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.res_error{
+  color: red;
+  font-size: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
